@@ -19,7 +19,6 @@ using MessageBox = System.Windows.Forms.MessageBox;
 
 namespace Calc2._0
 {
-
     public partial class MainWindow : MetroWindow
     {
         public MainWindow()
@@ -31,7 +30,6 @@ namespace Calc2._0
 
             try
             {
-
                 input.Text += 1;
 
                 if (input.Text == "1")
@@ -51,8 +49,6 @@ namespace Calc2._0
                     }
                     else point.IsEnabled = false;
                 }
-
-
             }
             catch (Exception d)
             {
@@ -83,7 +79,6 @@ namespace Calc2._0
             }
            
         }
-
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             input.Text += 3;
@@ -106,7 +101,6 @@ namespace Calc2._0
                 else point.IsEnabled = false;
             }
         }
-
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             input.Text += 5;
@@ -129,7 +123,6 @@ namespace Calc2._0
                 else point.IsEnabled = false;
             }
         }
-
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             input.Text += 4;
@@ -152,7 +145,6 @@ namespace Calc2._0
                 else point.IsEnabled = false;
             }
         }
-
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
             input.Text += 6;
@@ -175,7 +167,6 @@ namespace Calc2._0
                 else point.IsEnabled = false;
             }
         }
-
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
             input.Text += 7;
@@ -197,9 +188,7 @@ namespace Calc2._0
                 }
                 else point.IsEnabled = false;
             }
-
         }
-
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
             input.Text += 8;
@@ -222,7 +211,6 @@ namespace Calc2._0
                 else point.IsEnabled = false;
             }
         }
-
         private void Button_Click_8(object sender, RoutedEventArgs e)
         {
             input.Text += 9;
@@ -245,7 +233,6 @@ namespace Calc2._0
                 else point.IsEnabled = false;
             }
         }
-        
         private void Button_Click_9(object sender, RoutedEventArgs e)
         {
             input.Text += 0;
@@ -268,7 +255,6 @@ namespace Calc2._0
                    
                 }
                 else point.IsEnabled = false;
-               
             }
         }
         public decimal a, b;
@@ -531,13 +517,10 @@ namespace Calc2._0
                         break;
                 }
             }
-            catch (Exception e)
-            {
-               
+            catch (Exception d)
+            {    
             }
-
         }
-
         private void Equal_Click(object sender, RoutedEventArgs e)
         {
             try
